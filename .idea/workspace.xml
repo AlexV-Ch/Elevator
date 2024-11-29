@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a738e841-c029-48b6-bb52-d19d2e1c15c2" name="Changes" comment="">
+    <list default="true" id="a738e841-c029-48b6-bb52-d19d2e1c15c2" name="Changes" comment="Ком 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elevator.java" afterDir="false" />
     </list>
@@ -61,7 +61,21 @@
       <option name="presentableId" value="Default" />
       <updated>1732875649196</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ком 2">
+      <option name="closed" value="true" />
+      <created>1732882981753</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732882981753</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ком 2" />
+    <MESSAGE value="Ком 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ком 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
