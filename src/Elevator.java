@@ -15,14 +15,16 @@ public class Elevator {
     }
     //Метод moveDown -  перемещающий лифт на один этаж вниз (уменьшающий значение переменной currentFloor на единицу)
     public void moveDown() {
+        currentFloor--;
         //if (currentFloor > minFloor) {
-            currentFloor = currentFloor - 1;
+        //    currentFloor = currentFloor - 1;
         //}
     }
     // Метод moveUp, перемещающий лифт на один этаж вверх
     public void moveUp() {
+        currentFloor++;
         //if (currentFloor < maxFloor) {
-            currentFloor = currentFloor + 1;
+        //currentFloor = currentFloor + 1;
         //}
     }
     //Метод move(int floor), перемещающий лифт на заданный в параметре этаж, если он задан верно.
@@ -32,18 +34,23 @@ public class Elevator {
     // после каждого перемещения между этажами.
     public void move(int floor) {
         if (floor >= minFloor && floor <= maxFloor) {
-            System.out.println("Вы на " + currentFloor +" этаже");
-            while (currentFloor != floor) {
-                if (currentFloor > floor) {
-                    moveDown();
-                    System.out.println("Вы на " + currentFloor +" этаже");
-                } else  {
-                    moveUp();
-                    System.out.println("Вы на " + currentFloor +" этаже");
-                }
+            if (currentFloor != floor) {
+                System.out.println("Вы на " + currentFloor +" этаже");
+                while (currentFloor != floor) {
+                    if (currentFloor > floor) {
+                        moveDown();
+                        System.out.println("Вы на " + currentFloor + " этаже");
+                    } else {
+                        moveUp();
+                        System.out.println("Вы на " + currentFloor + " этаже");
+                    }
 
+                }
+                System.out.println("Вы приехали!");
+            } else {
+                System.out.println("Вы уже находитесь на данном (" + currentFloor + ") этаже");
             }
-            System.out.println("Вы приехали на " + currentFloor + " этаж");
+
 
 
         } else {
