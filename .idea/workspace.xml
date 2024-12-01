@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a738e841-c029-48b6-bb52-d19d2e1c15c2" name="Changes" comment="Готово">
+    <list default="true" id="a738e841-c029-48b6-bb52-d19d2e1c15c2" name="Changes" comment="Готово 2">
+      <change afterPath="$PROJECT_DIR$/src/Dimensions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gruz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elevator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elevator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1732902445249</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Готово 2">
+      <created>1732977953361</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732977953361</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,6 +100,7 @@
     <MESSAGE value="Ком 2" />
     <MESSAGE value="Ком 3" />
     <MESSAGE value="Готово" />
-    <option name="LAST_COMMIT_MESSAGE" value="Готово" />
+    <MESSAGE value="Готово 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Готово 2" />
   </component>
 </project>
