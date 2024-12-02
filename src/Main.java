@@ -35,5 +35,7 @@ public class Main {
         Dimensions copyGruz1 = gruz1v.setGabaritX(10);
         Gruz copy2 = copy1.setGabarit(copyGruz1.getDimensions());
         System.out.println(copy2);
+        Gruz copy3 = gruz1.setGabarit(copyGruz1.getDimensions());
+        System.out.println(copy3);
     }
 }
