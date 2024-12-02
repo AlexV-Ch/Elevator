@@ -23,14 +23,17 @@ public class Main {
         //    private boolean steklo;   // Если Т - хрупкий груз, F - не хрупкий груз
 
         Dimensions gruz1v = new Dimensions(2,3,5);
+
         Gruz gruz1 = new Gruz(gruz1v.getDimensions(), 5,"Советская 51",true,"001A",false);
 
-            System.out.println(gruz1.getAdres());
-            System.out.println(gruz1v.getDimensions());
-
-            gruz1.setAdres("Кирова 10");
-            System.out.println(gruz1.getAdres());
-
-
+         //   System.out.println(gruz1.getAdres());
+         //   System.out.println(gruz1v.getDimensions());
+         //   gruz1.setAdres("Кирова 10");
+        System.out.println(gruz1);
+        Gruz copy1 = gruz1.setAdres("Кирова 10");
+        System.out.println(copy1);
+        Dimensions copyGruz1 = gruz1v.setGabaritX(10);
+        Gruz copy2 = copy1.setGabarit(copyGruz1.getDimensions());
+        System.out.println(copy2);
     }
 }
